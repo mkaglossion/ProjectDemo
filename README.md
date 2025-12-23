@@ -61,7 +61,7 @@ php artisan key:generate
 Create a database in MariaDB (example: `projectdemo`), then update your `.env`:
 
 ```env
-DB_CONNECTION=mysql
+DB_CONNECTION=mariadb
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=projectdemo
