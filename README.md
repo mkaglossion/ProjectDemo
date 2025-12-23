@@ -1,3 +1,6 @@
+update my readme to use laravel-boast please
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -38,10 +41,13 @@ git clone https://github.com/mkaglossion22/ProjectDemo.git
 cd ProjectDemo
 ````
 
-### 2) Install backend dependencies (Composer)
+### 2) Install backend dependencies (Composer) Laravel Boost (Optional)
 
 ```bash
 composer install
+composer require laravel/boost --dev
+php artisan boost:install
+
 ```
 
 ### 3) Create environment file
