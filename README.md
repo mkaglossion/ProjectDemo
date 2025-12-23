@@ -1,29 +1,13 @@
-<p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
-</p>
+update my readme to use laravel-boast please
+
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
-  <!-- ✅ Build Status (CHANGE tests.yml + main if your workflow/branch is different) -->
-  <a href="https://github.com/mkaglossion22/ProjectDemo/actions/workflows/tests.yml">
-    <img src="https://github.com/mkaglossion22/ProjectDemo/actions/workflows/tests.yml/badge.svg?branch=main" alt="Build Status">
-  </a>
-
-  <!-- Laravel version -->
-  <a href="https://laravel.com/docs">
-    <img src="https://img.shields.io/badge/Laravel-11%2B-red" alt="Laravel Version">
-  </a>
-
-  <!-- PHP version -->
-  <a href="https://www.php.net/">
-    <img src="https://img.shields.io/badge/PHP-8.2%2B-blue" alt="PHP Version">
-  </a>
-
-  <!-- License (requires LICENSE file in repo) -->
-  <a href="https://github.com/mkaglossion22/ProjectDemo/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/mkaglossion22/ProjectDemo" alt="License">
-  </a>
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
 # ProjectDemo (Laravel Starter)
@@ -46,7 +30,7 @@ Make sure you have the following installed:
 - **PHP 8.2+**
 - **Composer**
 - **Node.js + NPM**
-- Database: **MariaDB** (recommended)
+- Database: **MariaDB** (recommended) / MySQL / PostgreSQL / SQLite
 - (Optional) Git
 
 ## Installation (Step-by-step)
@@ -80,7 +64,7 @@ php artisan key:generate
 Create a database in MariaDB (example: `projectdemo`), then update your `.env`:
 
 ```env
-DB_CONNECTION=mysql
+DB_CONNECTION=mariadb
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=projectdemo
@@ -186,7 +170,3 @@ If you discover a security vulnerability, please report it responsibly (avoid po
 ## License
 
 This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-```
-::contentReference[oaicite:0]{index=0}
-```
