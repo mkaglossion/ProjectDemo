@@ -27,7 +27,7 @@ Make sure you have the following installed:
 - **PHP 8.2+**
 - **Composer**
 - **Node.js + NPM**
-- Database: **MySQL / MariaDB / PostgreSQL / SQLite**
+- Database: **MariaDB** (recommended) / MySQL / PostgreSQL / SQLite
 - (Optional) Git
 
 ## Installation (Step-by-step)
@@ -56,25 +56,9 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 5) Configure the database
+### 5) Configure the database (MariaDB)
 
-Open `.env` and configure your database connection.
-
-#### Option A: SQLite (quick setup)
-
-```bash
-touch database/database.sqlite
-```
-
-Update `.env`:
-
-```env
-DB_CONNECTION=sqlite
-```
-
-#### Option B: MySQL / MariaDB
-
-Create a database (example: `projectdemo`) then update `.env`:
+Create a database in MariaDB (example: `projectdemo`), then update your `.env`:
 
 ```env
 DB_CONNECTION=mysql
@@ -84,6 +68,8 @@ DB_DATABASE=projectdemo
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+> Note: Laravel uses `DB_CONNECTION=mysql` for both **MySQL and MariaDB**.
 
 ### 6) Run migrations
 
