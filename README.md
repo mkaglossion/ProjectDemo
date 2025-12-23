@@ -166,8 +166,4 @@ If you discover a security vulnerability, please report it responsibly (avoid po
 
 ## License
 
-This project is open-sourced under the **MIT license**.
-
-```
-::contentReference[oaicite:0]{index=0}
-```
+This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for details.
