@@ -37,3 +37,12 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/mkaglossion22/ProjectDemo.git
 cd ProjectDemo
+
+### 2) Install backend dependencies (Composer)
+
+```bash
+composer install
+
+
+
+
