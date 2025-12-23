@@ -41,10 +41,13 @@ git clone https://github.com/mkaglossion22/ProjectDemo.git
 cd ProjectDemo
 ````
 
-### 2) Install backend dependencies (Composer)
+### 2) Install backend dependencies (Composer) Laravel Boost (Optional)
 
 ```bash
 composer install
+composer require laravel/boost --dev
+php artisan boost:install
+
 ```
 
 ### 3) Create environment file
